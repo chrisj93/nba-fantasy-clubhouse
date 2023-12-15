@@ -1,0 +1,65 @@
+body {
+    height: auto;
+    width: auto;
+    min-height: 100vh;
+    display: block;
+    flex-direction: column;
+}
+
+#website-title {
+    color: orange;
+    text-align: center;
+    font-family: 'Tourney', sans-serif;
+    font-size: 4rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Tourney', sans-serif;
+    font-size: 3rem;
+}
+
+.grid-container {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 5%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    height: 100%;
+    min-height: 100%;
+    float: left;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Tourney', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 0px;
+}
+
+.profile-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    height: 70%;
+    width: 55%;
+    object-fit: cover;
+    border-radius: 10%;
+    box-shadow: 2px 5px 5px grey;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+.card {
+    height: auto;
+    margin-bottom: 10px;
+}
